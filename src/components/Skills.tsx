@@ -1,13 +1,8 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import {
-  Mail,
-  Calendar,
   FileText,
   Database,
-  Cog,
-  BarChart3,
-  Palette,
   Code2,
   Users,
   Target,

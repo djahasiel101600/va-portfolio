@@ -21,7 +21,7 @@ const navLinks = [
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const { theme, setTheme, resolvedTheme } = useTheme()
+  const { setTheme, resolvedTheme } = useTheme()
 
   // Handle scroll effect for header background
   useEffect(() => {
